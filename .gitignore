@@ -3,5 +3,7 @@
 !mods/*
 !config/
 !config/*
+!resourcepacks
+!resourcepacks/*
 !.gitignore
 !README.md
