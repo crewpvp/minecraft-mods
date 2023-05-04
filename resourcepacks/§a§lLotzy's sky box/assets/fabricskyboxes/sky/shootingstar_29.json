@@ -1,0 +1,47 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"startFadeIn": 21492,
+			"endFadeIn": 21502,
+			"startFadeOut": 21600,
+			"endFadeOut": 21610
+		},
+		"rotation": {
+			"axis": [
+				90.0,
+				0.0,
+				45.0
+			],
+			"rotationSpeed": 203,
+			"static": [
+				90.0,
+				45.0,
+				0.0
+			]
+		},
+		"shouldRotate": true
+	},
+	"schemaVersion": 2,
+	"textures": {
+		"bottom": "fabricskyboxes:sky/black.png",
+		"east": "fabricskyboxes:sky/black.png",
+		"north": "fabricskyboxes:sky/black.png",
+		"south": "fabricskyboxes:sky/black.png",
+		"top": "fabricskyboxes:sky/shootingstar_calcium.png",
+		"west": "fabricskyboxes:sky/black.png"
+	},
+	"type": "square-textured"
+}

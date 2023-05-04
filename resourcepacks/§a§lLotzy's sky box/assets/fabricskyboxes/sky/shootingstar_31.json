@@ -1,0 +1,47 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"startFadeIn": 18524,
+			"endFadeIn": 18531,
+			"startFadeOut": 18603,
+			"endFadeOut": 18611
+		},
+		"rotation": {
+			"axis": [
+				90.0,
+				0.0,
+				0.0
+			],
+			"rotationSpeed": 277,
+			"static": [
+				180.0,
+				0.0,
+				0.0
+			]
+		},
+		"shouldRotate": true
+	},
+	"schemaVersion": 2,
+	"textures": {
+		"bottom": "fabricskyboxes:sky/black.png",
+		"east": "fabricskyboxes:sky/black.png",
+		"north": "fabricskyboxes:sky/black.png",
+		"south": "fabricskyboxes:sky/black.png",
+		"top": "fabricskyboxes:sky/shootingstar_nitrogen.png",
+		"west": "fabricskyboxes:sky/black.png"
+	},
+	"type": "square-textured"
+}
