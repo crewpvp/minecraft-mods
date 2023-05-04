@@ -1,9 +1,9 @@
 *
 !mods/
-!mods/*
+!mods/**
 !config/
-!config/*
+!config/**
 !resourcepacks/
-!resourcepacks/*
+!resourcepacks/**
 !.gitignore
 !README.md
