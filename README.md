@@ -41,10 +41,10 @@
 [ForceCloseLoadingScreen](https://modrinth.com/mod/forcecloseworldloadingscreen) - убирает окно загрузки мира, ускоряет загрузку ресурс паков.</br>
 [Krypton](https://modrinth.com/mod/krypton) - оптимизирует сетевой код игры.</br>
 [Lithium](https://modrinth.com/mod/lithium) - оптимизирует игровые события (в основном в одиночной игре).</br>
-~~[MemoryLeakFix](https://modrinth.com/mod/memoryleakfix) - исправляет некоторые утечки памяти.</br>~~ в состоянии обновления
+~~[MemoryLeakFix](https://modrinth.com/mod/memoryleakfix) - исправляет некоторые утечки памяти.~~ в состоянии обновления </br>
 [MoreCulling](https://modrinth.com/mod/moreculling) - заставляет игру перестать обрабатывать блоки, которые находятся вне видимости игрока </br>
 [No Telemetry](https://www.curseforge.com/minecraft/mc-mods/no-telemetry) - отключает сбор данных компание Microsoft о вашем ПК (была заного добавлена в 1.18)</br>
-~~[SmoothBoot](https://modrinth.com/mod/smoothboot-fabric) - позволяет игре запускаться более плавно, распределяя нагрузку при запуске на несколько ядер вашего процессора, вместо одного.</br>~~ больше не нужен
+~~[SmoothBoot](https://modrinth.com/mod/smoothboot-fabric) - позволяет игре запускаться более плавно, распределяя нагрузку при запуске на несколько ядер вашего процессора, вместо одного.~~ больше не нужен</br>
 [Exordium](https://modrinth.com/mod/exordium) - позволяет снизить частоту обновления игрового интерфейса, что никак не сказывается на игровом процессе, но дает небольшой выйгрыш по производительности.</br>
 </br>
 Некоторые дополнительные моды для удобства:</br>
@@ -65,11 +65,11 @@
 Немножко визуала:</br>
 [Visuality](https://modrinth.com/mod/visuality) - добавляет некоторые эффекты на блоки и сущности. Например частиты при дожде на воде, блеск на аметистах, кости при ударе скелета и т.д</br>
 [PresenceFootsteps](https://modrinth.com/mod/presence-footsteps) - изменяет звуки шагов в игре на более реалистичные и приятные. К тому же звуки зависят от поверхности на которую наступает сущность.</br>
-~~[ModelFix](https://modrinth.com/mod/modelfix) - убирает визуальный баг с прозрачными линиями между пикселями у предметов.</br>~~ в состоянии обновления
+~~[ModelFix](https://modrinth.com/mod/modelfix) - убирает визуальный баг с прозрачными линиями между пикселями у предметов.~~ в состоянии обновления</br> 
 [NotEnoughAnimations](https://modrinth.com/mod/not-enough-animations) - добавляет новые анимации для игроков, такие как: поднятие/спуск по лестницам, держание карты/предметов в рукеи т.д</br>
 [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights) - добавляет динамическое освещение от некоторых сущностей или предметов (когда они надеты/у вас в руке).</br>
 [FabricSkyBoxes](https://modrinth.com/mod/fabricskyboxes) - добавляет возможность установки неба (skybox) из ресурс пака с детальной настройкой каждого параметра</br>
-~~[CITResewn](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) - позволяет изменять текстуру предмета исхода из его аттрибутов.</br>~~ в состоянии обновления
+~~[CITResewn](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) - позволяет изменять текстуру предмета исхода из его аттрибутов.~~ в состоянии обновления </br> 
 </br>
 Наборы ресурсов в сборке:</br>
 [Faithful 8x8](https://www.curseforge.com/minecraft/texture-packs/f8thful) - стандартный набор ресурсов зашакаленный до 8х8 пикселей. Он был разбит на составляющие, от предметов до интерфейса, может помочь выйграть в производительности, если всё совсем плохо.</br>
