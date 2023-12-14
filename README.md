@@ -1,13 +1,13 @@
-# crewpvp vanilla mods collection for Fabric client 1.19.4
+# crewpvp vanilla mods collection for Fabric client 1.20.2
 ### Процесс установки:
 Первым делом необходимо установить сам клиент по [этой ссылке](https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.jar)</br>
-Открываем скачанный файл, выбираем раздел 'client', выбираем версию 1.19.4 и указываем директорию куда его стоит установить.</br>
+Открываем скачанный файл, выбираем раздел 'client', выбираем версию 1.20.2 и указываем директорию куда его стоит установить.</br>
 Чаще всего установщик сам определит куда необходимо установить клиент, но вот примерное расположение на разных операционных системах:</br>
 **MacOS**: <Диск с операционной системой>/Users/<Имя пользователя>/Library/Application Support/minecraft/</br>
 **Linux**: /home/<Имя пользователя>/.minecraft/</br>
 **Windows**: <Диск с операционной системой>/Пользователи/<Имя пользователя>/AppData/Roaming/.minecraft/</br>
-После установки перейдите в указанную директорию и распакуйте в нее содержимое данного репозитория. Вы можете скачать его [по этой ссылке](https://github.com/crewpvp/minecraft-mods/archive/refs/heads/ver/1.19.4.zip)</br>
-В списке версий вашего лаунчера появится новая версия, fabric-loader-0.14.19-1.19.4 (цифры могут отличатся в зависимости от выбранной версии Fabric)</br>
+После установки перейдите в указанную директорию и распакуйте в нее содержимое данного репозитория. Вы можете скачать его [по этой ссылке](https://github.com/crewpvp/minecraft-mods/archive/refs/heads/ver/1.20.2.zip)</br>
+В списке версий вашего лаунчера появится новая версия, fabric-loader-0.15.20-1.20.2 (цифры могут отличатся в зависимости от выбранной версии Fabric)</br>
 
 ### Решение некоторых проблем
 **На моем компьютере не запускаются версии выше чем 1.16.5:**</br>
@@ -26,7 +26,7 @@
 \- Установите [данный мод](https://modrinth.com/mod/optigui)</br>
 **С Optifine мой набор ресурсов заменял модели сущностей, как мне заставить эту функцию работать?**</br>
 \- Добавьте [данный мод](https://www.curseforge.com/minecraft/mc-mods/custom-entity-models-cem) к текущей сборке</br>
-**Я бы хотел играть с этой сборкой на сервере, который не поддерживает 1.19.4**</br>
+**Я бы хотел играть с этой сборкой на сервере, который не поддерживает 1.20.2**</br>
 \- Скачайте и установите [данный мод](https://modrinth.com/mod/viafabricplus). Если это вам не помогло, попробуйте один из двух других модов: [ViaFabric](https://modrinth.com/mod/viafabric), [Multiconnect](https://modrinth.com/mod/multiconnect)</br>
 </br>
 ### Что из себя представляет сборка
@@ -41,10 +41,10 @@
 [ForceCloseLoadingScreen](https://modrinth.com/mod/forcecloseworldloadingscreen) - убирает окно загрузки мира, ускоряет загрузку ресурс паков.</br>
 [Krypton](https://modrinth.com/mod/krypton) - оптимизирует сетевой код игры.</br>
 [Lithium](https://modrinth.com/mod/lithium) - оптимизирует игровые события (в основном в одиночной игре).</br>
-[MemoryLeakFix](https://modrinth.com/mod/memoryleakfix) - исправляет некоторые утечки памяти.</br>
+~~[MemoryLeakFix](https://modrinth.com/mod/memoryleakfix) - исправляет некоторые утечки памяти.</br>~~ в состоянии обновления
 [MoreCulling](https://modrinth.com/mod/moreculling) - заставляет игру перестать обрабатывать блоки, которые находятся вне видимости игрока </br>
 [No Telemetry](https://www.curseforge.com/minecraft/mc-mods/no-telemetry) - отключает сбор данных компание Microsoft о вашем ПК (была заного добавлена в 1.18)</br>
-[SmoothBoot](https://modrinth.com/mod/smoothboot-fabric) - позволяет игре запускаться более плавно, распределяя нагрузку при запуске на несколько ядер вашего процессора, вместо одного.</br>
+~~[SmoothBoot](https://modrinth.com/mod/smoothboot-fabric) - позволяет игре запускаться более плавно, распределяя нагрузку при запуске на несколько ядер вашего процессора, вместо одного.</br>~~ больше не нужен
 [Exordium](https://modrinth.com/mod/exordium) - позволяет снизить частоту обновления игрового интерфейса, что никак не сказывается на игровом процессе, но дает небольшой выйгрыш по производительности.</br>
 </br>
 Некоторые дополнительные моды для удобства:</br>
@@ -65,11 +65,11 @@
 Немножко визуала:</br>
 [Visuality](https://modrinth.com/mod/visuality) - добавляет некоторые эффекты на блоки и сущности. Например частиты при дожде на воде, блеск на аметистах, кости при ударе скелета и т.д</br>
 [PresenceFootsteps](https://modrinth.com/mod/presence-footsteps) - изменяет звуки шагов в игре на более реалистичные и приятные. К тому же звуки зависят от поверхности на которую наступает сущность.</br>
-[ModelFix](https://modrinth.com/mod/modelfix) - убирает визуальный баг с прозрачными линиями между пикселями у предметов.</br>
+~~[ModelFix](https://modrinth.com/mod/modelfix) - убирает визуальный баг с прозрачными линиями между пикселями у предметов.</br>~~ в состоянии обновления
 [NotEnoughAnimations](https://modrinth.com/mod/not-enough-animations) - добавляет новые анимации для игроков, такие как: поднятие/спуск по лестницам, держание карты/предметов в рукеи т.д</br>
 [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights) - добавляет динамическое освещение от некоторых сущностей или предметов (когда они надеты/у вас в руке).</br>
 [FabricSkyBoxes](https://modrinth.com/mod/fabricskyboxes) - добавляет возможность установки неба (skybox) из ресурс пака с детальной настройкой каждого параметра</br>
-[CITResewn](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) - позволяет изменять текстуру предмета исхода из его аттрибутов.</br>
+~~[CITResewn](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) - позволяет изменять текстуру предмета исхода из его аттрибутов.</br>~~ в состоянии обновления
 </br>
 Наборы ресурсов в сборке:</br>
 [Faithful 8x8](https://www.curseforge.com/minecraft/texture-packs/f8thful) - стандартный набор ресурсов зашакаленный до 8х8 пикселей. Он был разбит на составляющие, от предметов до интерфейса, может помочь выйграть в производительности, если всё совсем плохо.</br>
