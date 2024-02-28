@@ -1,43 +1,7 @@
 {
-	"blend": {
-		"type": "add"
-	},
-	"conditions": {
-		"weather": [
-			"clear"
-		],
-		"worlds": [
-			"minecraft:overworld"
-		]
-	},
-	"decorations": {
-		"showMoon": true,
-		"showStars": false,
-		"showSun": false
-	},
-	"properties": {
-		"fade": {
-			"endFadeIn": 12833,
-			"endFadeOut": 22450,
-			"startFadeIn": 12533,
-			"startFadeOut": 22150
-		},
-		"rotation": {
-			"axis": [
-				90.0,
-				0.0,
-				0.0
-			],
-			"rotationSpeed": 1.0,
-			"static": [
-				0.0,
-				0.0,
-				0.0
-			]
-		},
-		"shouldRotate": true
-	},
 	"schemaVersion": 2,
+	"type": "square-textured",
+	"blend": { "type": "add" },
 	"textures": {
 		"bottom": "fabricskyboxes:sky/night_bottom.png",
 		"east": "fabricskyboxes:sky/night_east.png",
@@ -46,5 +10,32 @@
 		"top": "fabricskyboxes:sky/night_top.png",
 		"west": "fabricskyboxes:sky/night_west.png"
 	},
-	"type": "square-textured"
+	"properties": {
+		"fade": {
+			"endFadeIn": 12833,
+			"endFadeOut": 22450,
+			"startFadeIn": 12533,
+			"startFadeOut": 22150
+		},
+		"shouldRotate": true,
+		"rotation": {
+			"axis": [ 90.0, 0.0, 0.0],
+			"rotationSpeedY": 1.0,
+			"static": [0.0,0.0,0.0]
+		},
+		"changeFog": false,
+		"transitionInDuration": 25,
+		"transitionOutDuration": 25,
+		"inThickFog": false,
+		"sunSkyTint": false
+	},
+	"decorations": {
+		"showSun": false,
+		"showMoon": true,
+		"showStars": true
+	},
+	"conditions": {
+		"worlds": [ "minecraft:overworld" ],
+		"weather": [ "clear" ]
+	}
 }

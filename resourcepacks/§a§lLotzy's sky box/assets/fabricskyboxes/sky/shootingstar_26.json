@@ -7,11 +7,6 @@
 			"minecraft:overworld"
 		]
 	},
-	"decorations": {
-		"showMoon": true,
-		"showStars": false,
-		"showSun": true
-	},
 	"properties": {
 		"fade": {
 			"startFadeIn": 15974,
@@ -25,7 +20,7 @@
 				0.0,
 				0.0
 			],
-			"rotationSpeed": 172,
+			"rotationSpeedY": 172,
 			"static": [
 				180.0,
 				0.0,

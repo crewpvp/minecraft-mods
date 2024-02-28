@@ -103,18 +103,16 @@ vectors = [
 # assign directory
 directory = 'sky'
 pattern = {
-		"blend": {
-			"type": "add"
-		},
-		"conditions": {
-			"worlds": [
-				"minecraft:overworld"
-			]
-		},
-		"decorations": {
-			"showMoon": True,
-			"showStars": False,
-			"showSun": True
+		"schemaVersion": 2,
+		"type": "square-textured",
+		"blend": { "type": "add" },
+		"textures": {
+			"bottom": "fabricskyboxes:sky/black.png",
+			"east": "fabricskyboxes:sky/black.png",
+			"north": "fabricskyboxes:sky/black.png",
+			"south": "fabricskyboxes:sky/black.png",
+			"top": "",
+			"west": "fabricskyboxes:sky/black.png"
 		},
 		"properties": {
 			"fade": {
@@ -124,30 +122,15 @@ pattern = {
 				"endFadeOut": 24000
 			},
 			"rotation": {
-				"axis": [
-					90.0,
-					0.0,
-					-45.0
-				],
-				"rotationSpeed": 250,
-				"static": [
-					-90.0,
-					-45.0,
-					0.0
-				]
+				"axis": [ 90.0, 0.0, -45.0 ],
+				"rotationSpeedY": 250,
+				"static": [ -90.0, -45.0, 0.0 ]
 			},
 			"shouldRotate": True
 		},
-		"schemaVersion": 2,
-		"textures": {
-			"bottom": "fabricskyboxes:sky/black.png",
-			"east": "fabricskyboxes:sky/black.png",
-			"north": "fabricskyboxes:sky/black.png",
-			"south": "fabricskyboxes:sky/black.png",
-			"top": "",
-			"west": "fabricskyboxes:sky/black.png"
-		},
-		"type": "square-textured"
+		"conditions": {
+			"worlds": [ "minecraft:overworld" ]
+		}
 	}
 
 colors = ['shootingstar_magnesium.png','shootingstar_calcium.png','shootingstar_nitrogen.png','shootingstar_iron.png','shootingstar_sodium.png','shootingstar_uranium.png']

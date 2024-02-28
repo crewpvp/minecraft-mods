@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 2,
+	"type": "monocolor",
+	"color": {"red": 0.4, "green": 0.4, "blue": 0.4, "alpha": 1.0},
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"fade": {
+			"startFadeIn": 22150,
+			"endFadeIn": 22450,
+			"startFadeOut": 12533,
+			"endFadeOut": 12833
+		},
+		"transitionInDuration": 25,
+		"transitionOutDuration": 25,
+		"changeFog": true,
+		"fogColors": {"red": 0.4, "green": 0.4, "blue": 0.4, "alpha": 1.0},
+		"inThickFog": true
+	},
+	"conditions": {
+		"worlds": [ "minecraft:overworld" ],
+		"weather": [ "rain" ]
+	},
+	"decorations": {
+		"showMoon": false,
+		"showStars": false,
+		"showSun": false
+	}
+}

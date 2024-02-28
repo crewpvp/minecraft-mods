@@ -5,45 +5,9 @@ import random
 # assign directory
 directory = 'sky'
 pattern = {
-		"blend": {
-			"type": "screen"
-		},
-		"conditions": {
-			"weather": [
-				"clear"
-			],
-			"worlds": [
-				"minecraft:overworld"
-			]
-		},
-		"decorations": {
-			"showMoon": True,
-			"showStars": False,
-			"showSun": True
-		},
-		"properties": {
-			"fade": {
-				"endFadeIn": 0,
-				"endFadeOut": 0,
-				"startFadeIn": 24000,
-				"startFadeOut": 24000
-			},
-			"rotation": {
-				"axis": [
-					0.0,
-					0.0,
-					0.0
-				],
-				"rotationSpeed": 1.0,
-				"static": [
-					0.0,
-					90.0,
-					30.0
-				]
-			},
-			"shouldRotate": False
-		},
 		"schemaVersion": 2,
+		"type": "square-textured",
+		"blend": { "type": "screen" },
 		"textures": {
 			"bottom": "fabricskyboxes:sky/black.png",
 			"east": "fabricskyboxes:sky/black.png",
@@ -52,7 +16,19 @@ pattern = {
 			"top": "",
 			"west": "fabricskyboxes:sky/black.png"
 		},
-		"type": "square-textured"
+		"properties": {
+			"fade": {
+				"endFadeIn": 0,
+				"endFadeOut": 0,
+				"startFadeIn": 24000,
+				"startFadeOut": 24000
+			},
+			"shouldRotate": False
+		},
+		"conditions": {
+			"worlds": [ "minecraft:overworld" ],
+			"weather": [ "clear" ]
+		}
 	}
 
 colors = ['north_light1.png','north_light2.png','north_light3.png','north_light4.png','north_light5.png','north_light6.png']

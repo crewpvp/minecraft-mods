@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 2,
+	"type": "monocolor",
+	"color": {"red": 1.0, "green": 1.0, "blue": 1.0, "alpha": 1.0},
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 1,
+		"fade": {
+			"alwaysOn": true
+		},
+		"transitionInDuration": 0,
+		"transitionOutDuration": 0,
+		"changeFog": true,
+		"fogColors": {"red": 0.15, "green": 0.05, "blue": 0.25, "alpha": 1.0},
+		"sunSkyTint": false,
+		"inThickFog": true
+	},
+	"conditions": {
+		"worlds": ["minecraft:the_end"],
+		"weather": []
+	}
+}

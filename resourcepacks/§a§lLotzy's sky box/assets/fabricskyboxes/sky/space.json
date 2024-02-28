@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 2,
+	"type": "square-textured",
+	"blend": { "type": "multiply" },
+	"textures": {
+		"bottom": "fabricskyboxes:sky/night_bottom.png",
+		"east": "fabricskyboxes:sky/night_east.png",
+		"north": "fabricskyboxes:sky/night_north.png",
+		"south": "fabricskyboxes:sky/night_south.png",
+		"top": "fabricskyboxes:sky/night_top.png",
+		"west": "fabricskyboxes:sky/night_west.png"
+	},
+	"properties": {
+		"priority": 30,
+		"fade": {
+			"alwaysOn": true
+		},
+		"shouldRotate": true,
+		"rotation": {
+			"axis": [ 90.0, 0.0, 0.0],
+			"rotationSpeedY": 1.0,
+			"static": [0.0,0.0,0.0]
+		},
+		"transitionInDuration": 50,
+		"transitionOutDuration": 50,
+		"inThickFog": false,
+		"sunSkyTint": false
+	},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+	},
+	"conditions": {
+		"yRanges": [{"min": 380, "max": 9999.0}],
+		"worlds": [ "minecraft:overworld" ],
+		"weather": []
+	}
+}
